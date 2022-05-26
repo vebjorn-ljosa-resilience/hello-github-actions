@@ -1,9 +1,8 @@
 name: Check merge
 on:
-  pull_request:
   push:
     branches:
-      - mainx
+      - main
 jobs:
   no-weekend-merge:
     runs-on: ubuntu-latest
