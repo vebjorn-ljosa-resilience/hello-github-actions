@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check for downtimes
-      uses: ka7eh/no-weekend-merge@releases/v0.1
+      uses: ka7eh/no-weekend-merge@v0.1
       with:
         tz: '-5'
         mon: '00:00-23:59'
